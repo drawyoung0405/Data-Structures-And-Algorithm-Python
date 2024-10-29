@@ -1,8 +1,12 @@
 from random import shuffle
- # My solution:
+ # My solution 1: XOR
 # Step 1: Find max of array
 # Step 2: Create the continuous array from min to max
 # Step 3: XOR both arrays to find the missing number
+
+# Beside that, we are solution 2: Approach sum formula method
+# Sum = max_value*(maxvalue + 1) / 2
+#missing_number = sum - sum_actual
 print("Enter the elements of array: ")
 arr = list(map(int, input().split())) #The elements in the array are separated by a single space.
 def create_continous_array(arr):
