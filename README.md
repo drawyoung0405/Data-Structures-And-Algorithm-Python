@@ -1,4 +1,5 @@
-# Data-Structures-And-Algorithm-Python
+# Data-Structures-And-Algorithm-Python  
+#### This project was referenced from websites: codeforce, leetcode,...
 Let's learn DSA!
 # Dynamic Array & String
 # 1. Fashion In Berland 
@@ -69,3 +70,23 @@ Given an array nums containing n distinct numbers in the range [0, n], return th
 - 0 <= nums[i] <= n </br>
 - All the numbers of nums are unique.
  
+# 4. Three Sum 
+Given an array of integers nums and an integer target, return indices of the three numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order. 
+
+**Example**
+
+
+| Input                   | Output |
+|-------------------------|--------|
+| 1, 2, 3, 7, 5, 8<br/>10 | 1 2 4  |
+| 7, 2, 1, 9, 5<br/>8     | 1 2 4  |
+
+
+
+
+ 
+
