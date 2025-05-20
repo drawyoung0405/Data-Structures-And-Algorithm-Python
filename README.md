@@ -71,10 +71,8 @@ Given an array nums containing n distinct numbers in the range [0, n], return th
 - All the numbers of nums are unique.
  
 # 4. Three Sum 
-Given an array of integers nums and an integer target, return indices of the three numbers such that they add up to target.
-
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
+Given an array of integers nums and an integer target, return indices of the three numbers such that they add up to target.</br></br>
+You may assume that each input would have exactly one solution, and you may not use the same element twice.</br></br>
 You can return the answer in any order. 
 
 **Example**
@@ -85,8 +83,53 @@ You can return the answer in any order.
 | 1, 2, 3, 7, 5, 8<br/>10 | 1 2 4  |
 | 7, 2, 1, 9, 5<br/>8     | 1 2 4  |
 
+# 5. Two sum
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
+You can return the answer in any order.
 
+ 
+
+**Example 1:** </br>
+**Input:** nums = [2,7,11,15], target = 9
+**Output:** [0,1]
+**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1].
+
+**Example 2:**</br>
+**Input:** nums = [3,2,4], target = 6</br>
+**Output:** [1,2]
+
+**Example 3:** </br>
+**Input:** nums = [3,3], target = 6</br>
+**Output:** [0,1]
+ 
+
+**Constraints:**</br>
+
+2 <= nums.length <= 104 </br>
+-109 <= nums[i] <= 109 </br>
+-109 <= target <= 109 </br>
+Only one valid answer exists.</br> </br>
+**Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?**
+
+# 6. Palindrome Number
+
+Given an integer x, return true if x is a palindrome, and false otherwise. </br></br>
+**Example 1:**</br>
+**Input:** x = 232</br>
+**Output:** true</br>
+**Explanation:** 232 reads as 232 from left to right and from right to left.</br></br>
+**Example 2:**</br>
+**Input:** x = -565 </br>
+**Output:** false</br>
+**Explanation:** From left to right, it reads -565. From right to left, it becomes 565-. </br> 
+Therefore it is not a palindrome.</br></br>
+**Example 3:**</br>
+**Input:** x = 20</br>
+**Output:** false</br>
+**Explanation:** Reads 02 from right to left.</br>
+Therefore it is not a palindrome.
  
 
